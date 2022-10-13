@@ -1,0 +1,9 @@
+8
+empty_u 0 0 32 16
+full_u 0 16 32 16
+empty_d 32 48 32 16
+full_d 32 32 32 16
+empty_l 0 32 16 32
+full_l 16 32 16 32
+empty_r 48 0 16 32
+full_r 32 0 16 32

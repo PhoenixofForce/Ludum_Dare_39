@@ -1,0 +1,38 @@
+[create_val; bool; door128; false
+[create_val; bool; door118; false
+[create_val; bool; door1211; false
+[create_val; bool; door1111; false
+[create_val; bool; toiletKey; false
+[create_val; bool; bedKey; false
+[create_val; bool; collectedBat1; false
+[create_interactable; 7; 3; [need; collectedBat1; false[add; energy; 50[set_val; collectedBat1; true
+[create_interactable; 8; 3; [need; collectedBat1; false[add; energy; 50[set_val; collectedBat1; true
+[create_interactable; 14; 16; [need; bedKey; false[add; key; 1[set_val; bedKey; true
+[create_interactable; 14; 15; [need; bedKey; false[add; key; 1[set_val; bedKey; true
+[create_interactable; 3; 11; [need; toiletKey; false[add; key; 1[set_val; toiletKey; true
+[create_interactable; 12; 8; [need; bedKey; true[add; key; -1[set_val; door128; true[set_val; door118; true
+[create_interactable; 11; 8; [need; bedKey; true[add; key; -1[set_val; door128; true[set_val; door118; true
+[create_interactable; 11; 11; [need; toiletKey; true[add; key; -1[set_val; door1111; true[set_val; door1211; true
+[create_interactable; 11; 11; [need; toiletKey; true[add; key; -1[set_val; door1111; true[set_val; door1211; true
+[map; 18; 21
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+0, 0, 0, 0, 0, 15, 1, 17, 17, 1, 15, 0, 0, 0, 0, 0, 0, 0
+0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0
+0, 0, 0, 0, 0, 21, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0
+0, 0, 0, 0, 0, 22, 1, 1, 1, 1, 36, 0, 0, 0, 0, 0, 0, 0
+0, 0, 0, 0, 0, 23, 1, 1, 1, 1, 37, 0, 0, 0, 0, 0, 0, 0
+0, 0, 0, 4, 1, 0, 0, 1, 1, 0, 0, 13[warp; victory; 0; 0{need; door128; true, 13[warp; victory; 0; 0{need; door128; true, 0, 0, 0, 0, 0
+0, 0, 0, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0
+0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0
+0, 0, 0, 41, 1, 1, 0, 0, 0, 0, 0, 14, 14, 0, 0, 0, 0, 0
+0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 15, 0, 0, 0
+0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0
+0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0
+0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0
+0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 39, 0, 0, 0
+0, 0, 0, 0, 0, 0, 0, 0, 0, 38, 38, 0, 1, 1, 40, 0, 0, 0
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0

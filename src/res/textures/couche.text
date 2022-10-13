@@ -1,0 +1,17 @@
+16
+left_t 0 0 25 32
+left_m 0 32 25 32
+left_b 0 64 25 32
+right_t 25 0 25 32
+right_m 25 32 25 32
+right_b 25 64 25 32
+top_l 50 0 32 25
+top_m 82 0 32 25
+top_r 114 0 32 25
+bottom_l 40 24 32 25
+bottom_m 82 24 32 25
+bottom_r 114 24 32 25
+left 50 50 25 32
+right 75 50 25 32
+top 100 50 32 25
+bottom 100 75 32 25
